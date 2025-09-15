@@ -160,7 +160,7 @@ Here we can change the rating value to 0 and forward it
 2. After forwarding the request with 0 ratings we see this
 <img width="939" height="513" alt="8" src="https://github.com/user-attachments/assets/4e18718c-a384-4db8-97b3-68c925da7bd5" />
 
-Impact:
+**Impact:**
 Improper input validation can lead to serious consequences, such as:
 -	Unauthorized access to sensitive data.
 -	The ability for attackers to act on behalf of other users.
@@ -199,7 +199,7 @@ we found acquisition.md file
 We found the Confidential Document
 <img width="939" height="515" alt="12" src="https://github.com/user-attachments/assets/485d6eb6-dfca-4b26-a0ce-28a70c9403fe" />
 
-Impact:
+**Impact:**
 Sensitive data exposure can lead to:
 -	Financial losses for individuals or organizations due to stolen information.
 -	Loss of customer trust and confidence.
@@ -220,8 +220,7 @@ By injecting the payload <iframe src="javascript:alert('juice shop')"> into the 
 <img width="939" height="515" alt="13" src="https://github.com/user-attachments/assets/fbbf3c47-3129-4ee5-9b41-e657ee36d513" />
 
 
-Impact:
-
+**Impact:**
 Cross-Site Scripting (XSS) attacks can have significant consequences, including:
 -	Theft of Sensitive Information: Attackers can steal cookies, session tokens, and personal data. 
 -	Unauthorized Actions: Malicious scripts can perform actions on behalf of the user, such as unauthorized transactions or posting harmful content. 
@@ -256,7 +255,7 @@ And we Got it
 <img width="939" height="513" alt="16" src="https://github.com/user-attachments/assets/cbf625e8-da3b-4cc0-913c-379dfd849fe8" />
 
 
-Impact:
+**Impact:**
 A successful security misconfiguration attack can lead to:
 -	Unauthorized access to sensitive information.
 -	The ability to act on behalf of another user.
@@ -282,7 +281,7 @@ I visited the Photowall page and noticed that a photo wasn't displayed. Using th
 
 Got the pop-up as the solved the challenge Missing Encoding
 
-Impact:
+**Impact:**
 A successful improper input validation attack can lead to:
 -	Unauthorized access to sensitive data.
 -	The ability to act on behalf of another user.
@@ -309,7 +308,7 @@ Redirect to Blockchain
 We Solve it
 <img width="940" height="515" alt="22" src="https://github.com/user-attachments/assets/6033634d-56dd-44ad-a457-efdc7fe0890c" />
 
-Impact:
+**Impact:**
 The impact of an unvalidated redirects attack includes:
 -	Theft of sensitive information like cookies, session tokens, or personal data.
 -	Unauthorized actions performed on the user’s behalf, such as fraudulent transactions or posting malicious content.
@@ -329,7 +328,7 @@ Just read the privacy policy of the company by http://192.168.1.10:3000/#/privac
 Got the pop-up solved the challenge Privacy Policy
 <img width="940" height="515" alt="23" src="https://github.com/user-attachments/assets/dc69a99c-d175-42f9-bf39-243726c3eb13" />
 
-Impact:
+**Impact:**
 The impact of a Privacy Policy attack can include:
 -	Unauthorized access to sensitive data.
 -	Loss of trust from customers or users due to mishandling of their information.
@@ -347,7 +346,7 @@ Steps to Reproduce:
 On the registration page, I attempted to create a new user account. In the "repeat password" field, I initially entered a 5-character password and matched it in the "repeat password" field. Then, I added 2 more characters to the original password, making it 7 characters long, but did not update the "repeat password" field. Despite this mismatch, the registration was successfully completed with the original password of 7 characters and a repeated password of only 5 characters.
 <img width="939" height="512" alt="24" src="https://github.com/user-attachments/assets/02caf3e4-0dbe-477a-bb1f-f61a24ecf1f4" />
 
-Impact:
+**Impact:**
 The impact of a successful Repetitive Registration attack can include:
 - unauthorized access to sensitive data
 - the ability to perform actions on behalf of another user
@@ -374,7 +373,7 @@ a password. As this is vulnerable to sql injection. Got the admin account login
 Got the pop up for the login success 
 
 
-Impact:-
+**Impact:**
 The consequences of a successful login admin attack include:
 -	Gaining unauthorized access to sensitive information.
 -	Acting on behalf of another user.
@@ -394,7 +393,7 @@ Steps to Reproduce:
 By the Dirbuster output, navigated through the 192.168.1.10:3000/administration. Thus getting into the admin panel. Then the pop-up came a solved the challenge
 <img width="940" height="515" alt="27" src="https://github.com/user-attachments/assets/e09f608a-4d54-4ab9-ae22-a55516c96dc7" />
 
-Impact:-
+**Impact:**
 The effects of a broken access control attack can include:
 -	Unauthorized access to sensitive information.
 -	Acting on behalf of another user.
@@ -418,7 +417,7 @@ With admin logged in, navigated through the http://192.168.1.4:3000/administrati
 Got the pop-up as solved the Five star feedback challenge
 
 
-Impact:-
+**Impact:**
 Broken access control attacks can result in:
 -	Gaining unauthorized access to sensitive information.
 -	Acting on behalf of another user.
@@ -441,7 +440,7 @@ Using BurpSuit I found the password admin123
 <img width="940" height="515" alt="31" src="https://github.com/user-attachments/assets/7db23a0d-3d27-450e-adfe-735a041aedcb" />
 <img width="940" height="513" alt="32" src="https://github.com/user-attachments/assets/35a42cb4-992b-43c4-a50e-148798d83376" />
 
-Impact:
+**Impact:**
 The impact of a successful broken authentication attack can include:
 - unauthorized access to sensitive data
 - stealing of user credentials, such as usernames and passwords
@@ -467,7 +466,7 @@ Got the pop-up solved the challenge Security Policy
 
 
 
-Impact:
+**Impact:**
 The impact of a successful Security Policy attack can include:
 - unauthorized access to sensitive information
 - the ability to perform actions on behalf of another user
@@ -496,7 +495,7 @@ storage for any id’s or cookies. In the session storage got the bid as 6, whic
 Then changed it to 1. The whole basket items are changed.
 <img width="940" height="515" alt="35" src="https://github.com/user-attachments/assets/ebac4c11-c884-4499-aa39-314f91888a1f" />
 
-Impact:
+**Impact:**
 The impact of a successful broken authentication attack can include:
 - unauthorized access to sensitive data
 - stealing of user credentials, such as usernames and passwords
@@ -516,7 +515,7 @@ commented it in the comment section and sent the request.
 Pop-up came with the challenge weird crypto solved just put MD5 in the comment and submit
 <img width="940" height="514" alt="36" src="https://github.com/user-attachments/assets/0c876711-d356-47df-85b5-424ea929cbf9" />
 
-Impact:
+**Impact:**
 The impact of a successful Cryptographic Issues attack can include:
 - unauthorized access to sensitive data
 - the ability to perform actions on behalf of another user
@@ -548,7 +547,7 @@ Pop-up came as the challenge solved.
 <img width="940" height="513" alt="38" src="https://github.com/user-attachments/assets/e7482789-2767-4740-9702-38e315dd9384" />
 <img width="940" height="515" alt="39" src="https://github.com/user-attachments/assets/0b555289-8f6b-480c-a9b7-c73ea6cdb94f" />
 
-Impact:
+**Impact:**
 The impact of a successful improper input validation attack can include:
 - unauthorized access to sensitive data
 - the ability to perform actions on behalf of another user
@@ -583,7 +582,7 @@ Pop-up came as the challenge completed
 <img width="940" height="515" alt="40" src="https://github.com/user-attachments/assets/4cf39d21-88d7-47a1-8c78-6b873a59389c" />
 <img width="940" height="515" alt="41" src="https://github.com/user-attachments/assets/d6c1eb49-c5f8-49ae-a982-08769de99289" />
 
-Impact:
+**Impact:**
 The impact of a successful OSINT attack can include:
 - unauthorized access to sensitive information
 - the ability to perform social engineering attacks, such as phishing, spear-phishing, or
@@ -622,7 +621,7 @@ Pop-up came as the challenge solved.
 <img width="854" height="439" alt="45" src="https://github.com/user-attachments/assets/231a2fcc-7e14-4059-ba92-31fa9d2dca59" />
 <img width="940" height="516" alt="46" src="https://github.com/user-attachments/assets/4ac2d1e2-76c5-4b9b-a7de-3e4696fbdd7d" />
 
-Impact:
+**Impact:**
 The impact of a successful Broken Anti-Automation attack can include:
 - unauthorized access to sensitive data
 - the ability to perform actions on behalf of another user
@@ -654,7 +653,7 @@ the Burpsuite.
 <img width="940" height="515" alt="49" src="https://github.com/user-attachments/assets/b130c008-f17c-4aa7-bdd0-e3d556df0226" />
 
 
-Impact:
+**Impact:**
 The impact of a successful broken access control attack can include:
 - unauthorized access to sensitive data
 - the ability to perform actions on behalf of another user
@@ -686,7 +685,7 @@ Now, lets log in as bender in the login page with sql injectin attack as bender@
 Pop-up came on challenge solved successfully
 
 
-Impact:
+**Impact:**
 The impact of a successful SQL injection attack can include:
 - unauthorized access to sensitive data
 - the ability to perform actions on behalf of another user
@@ -725,7 +724,7 @@ The challenge completed pop-up has shown
 <img width="940" height="513" alt="54" src="https://github.com/user-attachments/assets/036ad748-c844-4c57-8982-2d83bb920451" />
 
 
-Impact:
+**Impact:**
 The impact of a successful XSS attack can include:
 - stealing sensitive information such as cookies, session tokens, and personal
 information
@@ -764,7 +763,7 @@ Pop-up of challenge completion is shown.
 <img width="940" height="513" alt="56" src="https://github.com/user-attachments/assets/4c2322ee-6fb2-4b46-95fb-c289ad95431f" />
 <img width="940" height="515" alt="57" src="https://github.com/user-attachments/assets/54983298-f000-4390-b17e-bf80e00ee815" />
 
-Impact:
+**Impact:**
 The impact of a successful XSS attack can include:
 - stealing sensitive information such as cookies, session tokens, and personal
 information
@@ -806,7 +805,7 @@ The pop-up came indicating a successful completion of the challenge
 <img width="940" height="516" alt="61" src="https://github.com/user-attachments/assets/7c9d1649-51d2-4820-aab8-c66089346eaa" />
 
 
-Impact:
+**Impact:**
 The impact of a successful broken access control attack can include:
 - unauthorized access to sensitive data
 - the ability to perform actions on behalf of another user
@@ -842,7 +841,7 @@ The pop-up shown as the challenge completed successfully.
 <img width="940" height="515" alt="66" src="https://github.com/user-attachments/assets/50ccb6b9-dbb9-4b8f-a5de-ff79ca796275" />
 <img width="940" height="513" alt="67" src="https://github.com/user-attachments/assets/7ba63abb-51d6-473a-90d1-67ca383eb1a7" />
 
-Impact:
+**Impact:**
 The impact of a successful improper input validation attack can include:
 - unauthorized access to sensitive data
 - the ability to perform actions on behalf of another user
@@ -879,7 +878,7 @@ is to visit the web directory.
 <img width="940" height="516" alt="70" src="https://github.com/user-attachments/assets/2e088759-4ab0-4e6d-8c19-6aca0c16b91f" />
 <img width="940" height="515" alt="71" src="https://github.com/user-attachments/assets/e165fb5f-6abc-4261-a3ec-1b966d87bee8" />
 
-Impact:
+**Impact:**
 The impact of a successful Privacy Policy Inspection attack can include:
 - unauthorized access to sensitive information
 - loss of trust from customers or users whose data was mishandled
